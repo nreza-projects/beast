@@ -1,0 +1,179 @@
+// Colours
+
+
+// Colour for text
+$colText: rgba(43, 57, 64, 1);
+
+
+
+
+
+
+/*BLACK*/
+$colBlack: rgba(0, 0, 0, 1);
+$colBlackT: rgba(0, 0, 0, 0.44);
+$colBlackTL: rgba(0, 0, 0, 0.09);
+.bg-colBlack {background-color: $colBlack; }
+.bg-colBlackT {background-color: $colBlackT; }
+.bg-colBlackTL {background-color: $colBlackTL; }
+
+/*GREY*/
+$colGrey: rgba(169, 169, 169, 1);
+$colGreyT: rgba(169, 169, 169, 0.44);
+$colGreyTL: rgba(169, 169, 169, 0.09);
+.bg-colGrey {background-color: $colGrey; }
+.bg-colGreyT {background-color: $colGreyT; }
+.bg-colGreyTL {background-color: $colGreyTL; }
+
+/*DEEP GREY*/
+$colDeepGrey: rgba(43, 57, 64, 1);
+$colDeepGreyT: rgba(43, 57, 64, 0.44);
+$colDeepGreyTL: rgba(43, 57, 64, 0.9);
+
+
+/*WHITE*/
+$colWhite: rgba(255, 255, 255, 1);
+$colWhiteT: rgba(255, 255, 255, 0.44);
+$colWhiteTL: rgba(255, 255, 255, 0.09); 
+.bg-colWhite {background-color: $colWhite; }
+.bg-colWhiteT {background-color: $colWhiteT; }
+.bg-colWhiteTL {background-color: $colWhiteTL; }
+
+/*MILK WHITE*/
+$colMilkWhite: rgba(245, 245, 245, 1);
+$colMilkWhiteT: rgba(245, 245, 245, 0.44);
+$colMilkWhiteTL: rgba(245, 245, 245, 0.09); 
+
+//---
+
+
+	/*RED*/
+
+//Red
+$colRed: rgba(192, 57, 43, 1);
+$colRedT: rgba(192, 57, 43, 0.44);
+$colRedTL: rgba(192, 57, 43, 0.09);
+.bg-colRed {background-color: $colRed; }
+.bg-colRedT {background-color: $colRedT; }
+.bg-colRedTL {background-color: $colRedTL; }
+
+//RoyalRed
+$colRoyalRed: rgba(190, 24, 59, 1);
+$colRoyalRedT: rgba(190, 24, 59, 0.44);
+$colRoyalRedTL: rgba(190, 24, 59, 0.09);
+.bg-colRoyalRed {background-color: $colRoyalRed; }
+.bg-colRoyalRedT {background-color: $colRoyalRedT; }
+.bg-colRoyalRedTL {background-color: $colRoyalRedTL; }
+
+
+	/*ORANGE*/
+
+//Orange
+$colOrange: rgba(223, 104, 80, 1);
+$colOrangeT: rgba(223, 104, 80, 0.44);
+$colOrangeTL: rgba(223, 104, 80, 0.09);
+.bg-colOrange {background-color: $colOrange; }
+.bg-colBlackT {background-color: $colOrangeT }
+.bg-colBlackTL {background-color: $colOrangeTL; }
+
+
+	/*YELLOW*/
+
+//Yellow
+$colYellow: rgba(238, 201, 20, 1);
+$colYellowT: rgba(238, 201, 20, 0.44);
+$colYellowTL: rgba(238, 201, 20, 0.09);
+.bg-colYellow {background-color: $colYellow; }
+.bg-colYellowT {background-color: $colYellowT; }
+.bg-colYellowTL {background-color: $colYellowTL; }
+
+	/*GREEN*/
+
+//Green
+$colGreen: rgba(22, 160, 134, 1);
+$colGreenT: rgba(22, 160, 134, 0.44);
+$colGreenTL: rgba(22, 160, 134, 0.09);
+.bg-colGreen {background-color: $colGreen; }
+.bg-colGreenT {background-color: $colGreenT; }
+.bg-colGreenTL {background-color: $colGreenTL; }
+
+//ParrotGreen
+$colParrotGreen: rgba(0, 235, 127, 1);
+$colParrotGreenT: rgba(0, 235, 127, 0.44);
+$colParrotGreenTL: rgba(0, 235, 127, 0.09);
+
+//ForestGreen
+$colForestGreen: rgba(13, 145, 161, 1);
+$colForestGreenT: rgba(13, 145, 161, 0.44);
+$colForestGreenTL: rgba(13, 145, 161, 0.09);
+
+//GlowGreen
+$colGlowGreen: rgba(113, 249, 193, 1);
+$colGlowGreenT: rgba(113, 249, 193, 0.44);
+$colGlowGreenTL: rgba(113, 249, 193, 0.09);
+
+//FlatGreen
+$colFlatGreen: rgba(119, 248, 194, 1);
+$colFlatGreenT: rgba(119, 248, 194, 0.44);
+$colFlatGreenTL: rgba(119, 248, 194, 0.9);
+
+//MonsoonGreen
+$colMonsoonGreen: rgba(61, 217, 186, 1);
+$colMonsoonGreenT: rgba(61, 217, 186, 0.44);
+$colMonsoonGreenTL: rgba(61, 217, 186, 0.09);
+
+
+
+	/*BLUE*/
+
+//Blue
+$colBlue: rgba(39, 182, 247, 1);
+$colBlueT: rgba(39, 182, 247, 0.44);
+$colBlueTL: rgba(39, 182, 247, 0.09);
+.bg-colBlue {background-color: $colBlue; }
+.bg-colBlueT {background-color: $colBlueT; }
+.bg-colBlueTL {background-color: $colBlueTL; }
+
+//DeepBlue
+$colDeepBlue: rgba(25, 57, 129, 1);
+$colDeepBlueT: rgba(25, 57, 129, 0.44);
+$colDeepBlueTL: rgba(25, 57, 129, 0.09);
+
+//BrightBlue
+$colBrightBlue: rgba(0, 170, 255, 1);
+$colBrightBlueT: rgba(0, 170, 255, 0.44);
+$colBrightBlueTL: rgba(0, 170, 255, 0.09);
+
+
+
+	/*INDIGO*/
+
+//Indigo
+$colIndigo: rgba(10, 34, 122, 1);
+$colIndigoT: rgba(10, 34, 122, 0.44);
+$colIndigoTL: rgba(10, 34, 122, 0.09);
+.bg-colIndigo {background-color: $colIndigo; }
+.bg-colIndigoT {background-color: $colIndigoT; }
+.bg-colIndigoTL {background-color: $colIndigoTL; }
+
+//DeepIndigo
+$colDeepIndigo: rgba(17, 49, 86, 1);
+$colDeepIndigoT: rgba(17, 49, 86, 0.44);
+$colDeepIndigoTL: rgba(17, 49, 86, 0.09);
+
+//WhaleIndigo
+$colWhaleIndigo: rgba(23, 99, 160, 1);
+$colWhaleIndigoT: rgba(23, 99, 160, 0.44);
+$colWhaleIndigoTL: rgba(23, 99, 160, 0.09);
+
+
+
+	/*VIOLET*/
+
+//Violet
+$colViolet: rgba(85, 57, 130, 1);
+$colVioletT: rgba(85, 57, 130, 0.44);
+$colVioletTL: rgba(85, 57, 130, 0.09);
+.bg-colViolet {background-color: $colViolet; }
+.bg-colVioletT {background-color: $colVioletT; }
+.bg-colVioletTL {background-color: $colVioletTL; }

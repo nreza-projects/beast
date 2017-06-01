@@ -1,0 +1,89 @@
+// fP10 
+
+// TYPEFACE
+@mixin hero-fonts {
+//---
+    h1 {
+        @include headtype;
+        font-size: 4.85em;
+        color: $colWhite;
+    }
+    h2 {
+        color: $colParrotGreen;
+    }
+    //-800-
+    @media (max-width: 50.000em) {
+        h1 {font-size: 4em;}
+    }
+    //-400-
+    @media (max-width: 25.000em) {
+        h1 {font-size: 2.45em;}
+    }    
+//---
+}
+
+// STRUCTURE
+
+h1,h2,h3,h4 {color: $colGreen;}
+.container {color: $colText;}
+
+// index page
+
+.hero-back-T {
+    background-color: $colDeepIndigo;
+}
+
+.pllx-box-1 {
+    position: absolute;
+    z-index: -8;
+    width: 100%;
+    min-height: 150em;
+    background-image: url('img/pllx-spots-1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: difference;
+}
+
+.pllx-box-2 {
+    position: absolute;
+    z-index: -9;
+    width: 100%;
+    min-height: 150em;
+    background-image: url('img/pllx-spots-2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: difference;
+
+}
+
+.index-list {
+    li.list {
+        a:link,a:active,a:visited{font-size: 1.444em; text-transform: uppercase; color: $colGlowGreen;}
+        a:hover {color: $colWhite;}
+    }
+}
+
+// HOMEPAGE
+
+.hero-content {
+	background: rgba(33, 44, 50, 0.9);
+.hero-text {
+	@include hero-fonts;
+	padding-top: 14em;
+	position: relative;
+	margin: auto;
+	width: 80%;
+	max-width: 37.500em;
+	}
+}
+
+.home-content {
+	h1 {text-transform: uppercase;}
+}
+
+.pad-glss-drk {
+    width: 50%;
+    left: 25%;
+    right: 15%;
+    margin-top: 30%;
+}
