@@ -16,6 +16,25 @@
 
 /* STYLESHEET */
 
+// NEW STRUCTURE 
+
+.spc-hero {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	max-width: 90.000em; // 1440px
+	height: 90.000em; // 1440px
+	max-height: 100vh;
+	overflow: hidden;
+		@include bg-pearl;
+}
+
+
+
+
+
+
+
 // --
 // @import 'vpm';
 // @import 'vps';

@@ -177,3 +177,32 @@ $colVioletTL: rgba(85, 57, 130, 0.09);
 .bg-colViolet {background-color: $colViolet; }
 .bg-colVioletT {background-color: $colVioletT; }
 .bg-colVioletTL {background-color: $colVioletTL; }
+
+
+
+
+/* COLOURS - SHORT HAND */
+
+$clrBlack: #000000;
+$clrWhite: #ffffff;
+$clrGrey: #bdbdbd;
+
+
+$clrRed: #d50000;
+$clrOrange: #ff6d00;
+$clrYellow: #ffea00;
+$clrGreen: #66bb6a;
+$clrBlue: #1e88e5;
+$clrIndigo: #1a237e;
+$clrPurple: #4527a0;
+
+
+
+// COLOUR MIXINS
+
+@mixin bg-pearl {
+	background: #C5CAE9;
+	background: -webkit-linear-gradient(to bottom left, #C5CAE9 , #E2F2FD);
+	background: linear-gradient(to bottom left, #C5CAE9 , #E2F2FD);
+};
+
