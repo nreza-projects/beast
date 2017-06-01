@@ -4,7 +4,7 @@
 
 // Put this in HTML
 
-<video id="heroVideo" autoplay loop poster="...">
+<video id="vdo" autoplay loop poster="...">
     <source src="..." type="video/webm">
     <source src="..." type="video/mp4">
 </video>
@@ -18,9 +18,18 @@ video {
     height: auto; 
 }
 
-#heroVideo {
+#vdo {
   position: absolute;
-  top: 0;
+  bottom: 0;
+  left: 0;
   z-index: -1; 
 }
 
+
+.glss {
+  position: absolute;
+  top:0;
+  min-width: 100%;
+  min-height: 90.000em;
+  z-index: 0;
+}
