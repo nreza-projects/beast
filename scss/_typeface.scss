@@ -2,38 +2,57 @@
 
 /*
 //TYPEFACE SCSS TEMPLATE 
-@mixin hero-fonts {
+@mixin footer-fonts {
 //---
     h1 {
-        @include headtype;
-        font-size: 4.85em;
-        color: $colWhite;
+
     }
     //-800-
     @media (max-width: 50.000em) {
-        h1 {font-size: 4em;}
+        h1 {}
     }
     //-400-
     @media (max-width: 25.000em) {
-        h1 {font-size: 2.45em;}
+        h1 {}
     }    
 //---
 }
 */
 
+/* FONTS >>
+
+Oswald - 500
+Lato - 300 , 900
+Roboto Slab - 300 , 400
+
+*/
+
+
+
+
 /*THREE MAIN WEBSITE FONTS*/
         @mixin headtype {
-            font-family: 'Roboto Condensed', 'Impact', sans-serif;
-            font-weight: 700;
+            font-family: 'Oswald', 'Impact', sans-serif;
+            font-weight: 500;
         }
 
         @mixin subtype {
-            font-family: 'Roboto Slab', 'Times New Roman', serif;
-            font-weight: 400;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 900;
+        }
+
+        @mixin linetype {
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 600;
+        }
+
+        @mixin titletype {
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 300;
         }
 
         @mixin basetype {
-            font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+            font-family: 'Roboto Slab', 'Times', serif;
             font-weight: 300;  
         }
 
@@ -48,33 +67,156 @@ a:hover{color:$colFlatGreen;}
 
 //---
 @mixin hero-typeface {
-
+//--
     h1 {
         @include headtype;
-        font-size: 6em;
+        font-size: 4.5em;
         line-height: 0.9em;
         text-transform: uppercase;
-        color: $clrIndigo;
+        letter-spacing: -0.03em;
+        color: $clrDeepBlue;
     }
     h2 {
-        @include basetype;
+        @include linetype;
+        font-size: 1.75em;
         line-height: 1.2em;
-        letter-spacing: -0.02em;
-        color: $clrBlack;
+        letter-spacing: -0.03em;
+        color: $clrBlue;
+    }
+    h3 {
+        @include subtype;
+        font-size: 1.75em;
+        line-height: 1.2em;
+        letter-spacing: -0.03em;
+        color: $clrDeadBlue;                
     }
     span.big {
-        @include headtype;
+        @include subtype;
+        color: $clrBlue;
     }
     //-800-
     @media (max-width: 50.000em) {
-        h1 {font-size: 3.25em;}
+        h1 {font-size: 2.6em;}
         h2 {font-size: 1.25em;}
+        h3 {font-size: 1.25em;}        
     }
     //-400-
     @media (max-width: 25.000em) {
         h1 {font-size: 1.55em;}
         h2 {font-size: 1em;}
+        h3 {font-size: 1em;}
     }    
-
+//--
 }
 //---
+
+@mixin footer-typeface {
+//---
+    h5 {
+        font-family: 'Lato', 'Helvetica Neue', sans-serif;
+    }
+    //-800-
+    @media (max-width: 50.000em) {
+        h5 {}
+    }
+    //-400-
+    @media (max-width: 25.000em) {
+        h5 {}
+    }    
+//---
+}
+
+
+@mixin top-typeface {
+//---
+    h1 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    color: $clrIndigo;
+    }
+    //-800-
+    @media (max-width: 50.000em) {
+        h1 {font-size: 3em;}
+    }
+    //-400-
+    @media (max-width: 25.000em) {
+        h1 {font-size: 2.75em;}
+    }    
+//---
+}
+
+@mixin page-typeface {
+//---
+    h1 {
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: $clrBlue;
+    }
+    h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: $clrViolet;
+    }
+    //-800-
+    @media (max-width: 50.000em) {
+
+    }
+    //-400-
+    @media (max-width: 25.000em) {
+    }    
+//---
+}
+
+@mixin txt-typeface {
+//---
+    h3 {
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: $clrBlue;
+    }
+    p {
+    @include titletype;
+    font-size: 0.97em;
+    color: $clrDenimBlue;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+    text-align: justify;
+    }
+    //-800-
+    @media (max-width: 50.000em) {
+
+    }
+    //-400-
+    @media (max-width: 25.000em) {
+    }    
+//---
+}
+
+
+@mixin bottom-typeface {
+//---
+    h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: -0.02em;
+    color: $clrBlue;
+    }
+    h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: $clrViolet;
+    line-height: 1.3em;
+    text-transform: none;
+    }
+    //-800-
+    @media (max-width: 50.000em) {
+
+    }
+    //-400-
+    @media (max-width: 25.000em) {
+    }    
+//---
+}

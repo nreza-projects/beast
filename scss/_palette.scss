@@ -197,6 +197,15 @@ $clrIndigo: #1a237e;
 $clrPurple: #4527a0;
 
 
+// CUSTOM COLOURS
+
+$clrDeadBlue: #183959;
+$clrDeepBlue: #0033a0;
+$clrViolet: #2d1a71;
+$clrDenimBlue: #215DAC;
+
+
+
 
 // COLOUR MIXINS
 
@@ -204,5 +213,23 @@ $clrPurple: #4527a0;
 	background: #C5CAE9;
 	background: -webkit-linear-gradient(to bottom left, #C5CAE9 , #E2F2FD);
 	background: linear-gradient(to bottom left, #C5CAE9 , #E2F2FD);
-};
+}
+
+@mixin bg-sky {
+	background: #E2F2FD;
+	background: -webkit-linear-gradient(to right, #E2F2FD , #E1F5FE);
+	background: linear-gradient(to right, #E2F2FD , #E1F5FE);
+}
+
+@mixin bg-toxic {
+	background: #00FF95;
+	background: -webkit-linear-gradient(to bottom left, #00FF95 , #00FFE2);
+	background: linear-gradient(to bottom left, #00FF95 , #00FFE2);
+}
+
+@mixin bg-milky {
+	background: #F4F4F4;
+	background: -webkit-linear-gradient(to bottom left, #F4F4F4 , #F9FAFA);
+	background: linear-gradient(to bottom left, #F4F4F4 , #F9FAFA);
+}
 

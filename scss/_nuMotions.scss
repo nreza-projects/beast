@@ -246,3 +246,33 @@
   -webkit-animation: theShaking 1.8s linear 0s 1 normal both;
   animation: theShaking 1.8s linear 0s 1 normal both;
 }
+
+/*theZoomAlert*/
+@-webkit-keyframes ZoomAlertOne {
+  0%{
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  70%{
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  80%{
+  -webkit-transform: scale3d(1.05,1.05,1.05);
+  transform: scale3d(1.05,1.05,1.05);
+  }
+  100%{
+  -webkit-transform: scale3d(1,1,1);
+  transform: scale3d(1,1,1);
+  }
+
+}
+  .nuM-ZoomAlertOne {
+  -webkit-animation: ZoomAlertOne 1.3s ease 0s 1 normal both;
+  animation: ZoomAlertOne 1.3 ease 0s 1 normal both;
+}
+
+  .nuM-ZoomAlertTwo {
+  -webkit-animation: ZoomAlertOne 1.5s ease 0.2s 1 normal both;
+  animation: ZoomAlertOne 1.5 ease 0.2s 1 normal both;
+}

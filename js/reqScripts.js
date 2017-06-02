@@ -48,6 +48,26 @@ jQuery(document).ready(function() {
 		    scrollHorizontal: false // Set to true if your website scrolls horizontal instead of vertical.
 	});
 
+	//vp-theZoomAlertOne
+	jQuery('.vp-ZoomAlertOne').addClass("space-invisible").viewportChecker({
+		    classToRemove: 'space-invisible', // Class to remove before adding 'classToAdd' to the elements
+		    classToAdd: 'space-visible nuM-ZoomAlertOne', // Class to add to the elements when they are visible,
+		    removeClassAfterAnimation: false, // Remove added classes after animation has finished
+		   	repeat: true, // Add the possibility to remove the class if the elements are not visible
+		    scrollHorizontal: false // Set to true if your website scrolls horizontal instead of vertical.
+	});
+
+	//vp-theZoomAlertTwo
+	jQuery('.vp-ZoomAlertTwo').addClass("space-invisible").viewportChecker({
+		    classToRemove: 'space-invisible', // Class to remove before adding 'classToAdd' to the elements
+		    classToAdd: 'space-visible nuM-ZoomAlertTwo', // Class to add to the elements when they are visible,
+		    removeClassAfterAnimation: false, // Remove added classes after animation has finished
+		   	offset: 20,
+		   	repeat: true, // Add the possibility to remove the class if the elements are not visible
+		    scrollHorizontal: false // Set to true if your website scrolls horizontal instead of vertical.
+	});
+
+
 	//vp-theShaking
 	jQuery('.vp-theShaking').addClass("space-invisible").viewportChecker({
 		    classToRemove: 'space-invisible', // Class to remove before adding 'classToAdd' to the elements

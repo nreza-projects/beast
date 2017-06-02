@@ -18,25 +18,67 @@
 
 // NEW STRUCTURE 
 
+footer {
+	//@include bg-sky;
+	@include footer-typeface;
+}
+.foot-txt {
+	padding-top: 10vh;
+}
+
 .hero {
 	position: relative;
 	margin: auto;
 	width: 100%;
-	max-width: 90.000em; // 1440px
 	height: 90.000em; // 1440px
 	max-height: 100vh;
 	overflow: hidden;
 		//@include bg-pearl;
 }
 
+.page-top {
+	position: relative;
+	top:0;
+	margin: auto;
+	width: 100%;
+	height: 30.000em; // 480px
+	overflow: hidden;
+}
+.page {
+	@include page-typeface;
+}
+
+.top-txt {
+	position: relative;
+	margin: 30vh auto 0 auto;
+	width: 70%;
+	text-align: center;
+	@include top-typeface;
+	z-index: 1;
+}
+.top-bg {
+	position: absolute;
+	top:0;
+	min-height: 37.500em;
+	width: 100%;
+	z-index: -2;
+	background-image: url('img/pg-bk.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
 .hero-back {
 	z-index: -1;
 }
 .glss {
-	@include bg-pearl;
-	opacity: 0.84;
+	background: $clrWhite;
+	opacity: 0.67;
 }
-
+.net {
+	background-image: url('img/net.svg');
+	background-repeat: repeat;
+}
 
 .hero-text {
 	@include hero-typeface;
@@ -45,7 +87,7 @@
 	width: 100%;
 	max-width: 60.000em;
 	max-height: 100vh;
-	z-index: 1;
+	z-index: 2;
 	padding: 0.5em 2.5em 0.5em 2.5em;
 	overflow: hidden;
 }
@@ -53,6 +95,7 @@
 //--
 .wrap-fix {
 	position: relative;
+	top:0;
 	margin: 2.5em auto 0 auto;
 	width: 100%;
 	max-width: 60.000em;
@@ -67,14 +110,82 @@
 .wrap-fix {width:88%;margin: 1.5em auto 0 auto;
 }
 }
+
+
+.wrap-fluid {
+	position: relative;
+	top:0;
+	margin: 2.5em auto 0 auto;
+	width: 100%;
+	max-width: 90.000em;
+}
+/*400*/
+@media (max-width: 25.000em) {
+.wrap-fluid {width:88%;margin: 1.5em auto 0 auto;
+}
+}
 //-
 
+.left-40 {
+	float: left;
+	width: 40%;
+	min-height: 25.000em;
+	@include bg-sky;
+}
 
+.right-60 {
+	float: left;
+	width: 60%;
+	min-height: 25.000em;
+	@include bg-milky;
+	@include txt-typeface;
+}
+/*400*/
+@media (max-width: 25.000em) {
+.left-40 {display: none;}
+.right-60 {width: 100%;}
+}
 
+.feat-1 {
+	background-image: url('img/feat-1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
+.bottom {
+	@include bottom-typeface;
+}
 
+.txt-box {
+	padding: 10vh 1.5em 0 1.5em;
+}
 
+.third {
+}
 
+.pearl {
+	@include bg-pearl;
+	min-height: 13.750em;
+	margin-bottom: 1.250em;
+}
+
+.sky {
+	@include bg-sky;
+	min-height: 13.750em;
+	margin-bottom: 1.250em;
+}
+.toxic {
+	@include bg-toxic;
+	min-height: 13.750em;
+	margin-bottom: 1.250em;
+}
+
+@media (max-width: 40.000em) {
+.small-hide {
+	display: none;
+}	
+}
 
 
 
